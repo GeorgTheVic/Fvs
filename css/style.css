@@ -1,0 +1,41 @@
+* {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   text-decoration: none;
+}
+*,*:before,*:after {
+   box-sizing: border-box;
+   -moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+   }
+html,body {
+   height: 100%;
+   width: 100%;
+   font-size: 100px;
+   line-height: 1;
+   font-family: sans-serif;
+   text-align: center;
+   color: #fff;
+   background-color: #000;
+   -ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+   height: 1vh;
+}
+h1, h2, h3, h4, h5, h6 {
+   margin: 0;
+   font-size: inherit;
+   font-weight: normal;
+}
+
+/* Title=========================================== */
+.title {
+   margin: 100px auto;
+
+   text-transform: uppercase;
+}
+
+.port {
+   height: 500px;
+}
